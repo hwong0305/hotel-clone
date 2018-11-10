@@ -1,0 +1,58 @@
+#checkIn {
+    width: 130px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 0.8rem;
+    background-color: rgb(0, 30, 50);
+}
+
+#checkIn:hover {
+    background-color: rgb(0, 30, 80);
+    cursor: grab;
+}
+
+#checkOut {
+    width: 130px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 0.8rem;
+    background-color: rgb(0, 30, 50);
+}
+
+#checkOut:hover {
+    background-color: rgb(0, 30, 80);
+    cursor: grab;
+}
+
+#checkIn > label {
+    cursor: grab;
+}
+
+#checkOut > label {
+    cursor: grab;
+}
+
+#bookRoom {
+    height: 40px;
+    width: 220px;
+    font-size: 0.8rem;
+    background-color: teal;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.booking-bar select {
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(0, 30, 50);
+    color: #fff;
+    border: solid 1px white;
+    border-radius: 0;
+    font-size: 0.8rem;
+}
