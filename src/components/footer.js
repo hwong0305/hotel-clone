@@ -76,6 +76,9 @@ class Footer extends Component {
                 <button onClick={this.toggleCheckOut} id="checkOut">
                     {this.state.outDefault ? this.state.outDate : 'Check Out'}
                 </button>
+                <label htmlFor="occupants" id="selectLabel">
+                    Occupants
+                </label>
                 <select name="occupants">
                     <option value="0">Adults</option>
                     <option value="1">1</option>

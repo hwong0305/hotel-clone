@@ -19,14 +19,17 @@ class Modal extends Component {
                     readOnly
                 />
                 <div className="overlay">
-                    <div id="cal">
+                    <div>
                         <Calendar
                             date={this.props.date}
                             onChange={this.props.handleChange}
                             minDate={minDate}
                         />
                     </div>
-                    <button id="modalButton" onClick={this.props.toggleModal}>
+                    <button
+                        id="modalCloseButton"
+                        onClick={this.props.toggleModal}
+                    >
                         Close
                     </button>
                 </div>

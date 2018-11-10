@@ -40,10 +40,11 @@
     height: 40px;
     width: 220px;
     font-size: 0.8rem;
-    background-color: teal;
+    background-color: rgb(8, 190, 190);
     border: none;
     text-transform: uppercase;
     font-weight: bold;
+    --webkit-box-shadow: -10px 10px rgb(0, 10, 50);
 }
 
 .booking-bar select {
@@ -55,4 +56,8 @@
     border: solid 1px white;
     border-radius: 0;
     font-size: 0.8rem;
+}
+
+#selectLabel {
+    display: none;
 }
