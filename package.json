@@ -1,6 +1,9 @@
 {
   "name": "hotel",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.6.0"
+  },
   "private": true,
   "dependencies": {
     "babel-loader": "^8.0.4",
